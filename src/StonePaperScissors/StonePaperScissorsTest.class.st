@@ -7,5 +7,5 @@ Class {
 
 { #category : 'tests' }
 StonePaperScissorsTest >> testStoneAgainstPaperIsWinning [
-	self assert: (Paper new vs: Scissors new) equals: #scissors 
+	self assert: (Paper new vs: Scissors new) equals: #scissors
 ]
